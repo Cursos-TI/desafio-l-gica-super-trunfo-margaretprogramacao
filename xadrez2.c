@@ -95,4 +95,14 @@ int main() {
     printf("Carta 1 - %s (%s): %.2f reais\n", carta1.nome_cidade, carta1.estado, pibpercapita1);
     printf("Carta 2 - %s (%s): %.2f reais\n", carta2.nome_cidade, carta2.estado, pibpercapita2);
 
+    if (pibpercapita1 > pibpercapita2) {
+        printf("\nResultado: Carta 1 (%s) venceu!\n", carta1.nome_cidade);
+    } else if (pibpercapita2 > pibpercapita1) {
+        printf("\nResultado: Carta 2 (%s) venceu!\n", carta2.nome_cidade);
+    } else {
+        printf("\nResultado: Empate!\n");
+    }
+
+    return 0;
+
 }
