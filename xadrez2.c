@@ -90,4 +90,9 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per Capita: %.2f reais\n", pibpercapita2);
 
+    printf("\n=== Comparação de Cartas (Atributo: PIB per Capita) ===\n");
+
+    printf("Carta 1 - %s (%s): %.2f reais\n", carta1.nome_cidade, carta1.estado, pibpercapita1);
+    printf("Carta 2 - %s (%s): %.2f reais\n", carta2.nome_cidade, carta2.estado, pibpercapita2);
+
 }
